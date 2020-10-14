@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FiArrowRight } from 'react-icons/fi';
 
 import '../styles/pages/landing.css';
 
 import logoImg from '../images/logo.svg';
-import arrowRightImg from '../images/arrow-right.svg';
 
 function Landing() {
   return (
@@ -23,7 +23,7 @@ function Landing() {
         </div>
 
         <Link to='/app' className='enter-app'>
-          <img src={arrowRightImg} alt='Arrow Right' />
+          <FiArrowRight size={40} color='#8D734B' />
         </Link>
       </div>
     </div>
